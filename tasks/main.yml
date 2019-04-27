@@ -1,6 +1,12 @@
 ---
 - name: "Ensure GPG tools are installed."
-  apt: name="gpgv gnupg" state="present"
+  apt:
+    name: "{{ packages }}"
+    state: present
+  vars:
+    packages:
+      - "gpgv"
+      - "gnupg"
 
 - include_tasks: setup-repo-Debian.yml
   when:
