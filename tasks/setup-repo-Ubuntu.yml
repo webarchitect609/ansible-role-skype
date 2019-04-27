@@ -1,0 +1,10 @@
+---
+
+- name: "Add GPG key."
+  apt_key:
+    url: "{{ skype_gpg_key_url }}"
+
+- name: "Add repository."
+  apt_repository:
+    repo: "{{ skype_deb_source }}"
+    state: "present"

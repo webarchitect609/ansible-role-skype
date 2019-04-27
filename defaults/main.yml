@@ -1,0 +1,4 @@
+---
+skype_package: skypeforlinux
+skype_deb_source: "deb [arch=amd64] https://repo.skype.com/deb stable main"
+skype_gpg_key_url: "https://repo.skype.com/data/SKYPE-GPG-KEY"
