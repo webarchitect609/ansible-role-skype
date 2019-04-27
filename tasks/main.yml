@@ -20,7 +20,7 @@
 - name: "Refresh apt sources list"
   apt:
     update_cache: true
-    cache_valid_time: 86400
+    cache_valid_time: 1
 
 - name: "Install Skype"
   apt:
