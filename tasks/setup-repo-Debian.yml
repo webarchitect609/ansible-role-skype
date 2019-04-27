@@ -1,4 +1,9 @@
 ---
+- name: "Ensure HTTPS apt transport installed."
+  apt:
+    name: "apt-transport-https"
+    state: present
+
 - name: "Add repository."
   template:
     src: templates/skype-stable.list.j2
