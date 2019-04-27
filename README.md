@@ -1,6 +1,8 @@
 Ansible Role: Skype
 =========
 
+[![Build Status](https://travis-ci.org/webarchitect609/ansible-role-skype.svg?branch=master)](https://travis-ci.org/webarchitect609/ansible-role-skype)
+
 Installs Skype from an official deb repository.
 
 Requirements
