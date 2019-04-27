@@ -1,4 +1,7 @@
 ---
+- name: "Ensure GPG tools are installed."
+  apt: name="gpgv gnupg" state="present"
+
 - include_tasks: setup-repo-Debian.yml
   when:
     - ansible_os_family == 'Debian'

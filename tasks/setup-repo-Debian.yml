@@ -1,7 +1,4 @@
 ---
-- name: "Ensure GPG tool is installed."
-  apt: name="gpgv" state="present"
-
 - name: "Add repository."
   template:
     src: templates/skype-stable.list.j2
