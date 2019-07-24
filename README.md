@@ -3,7 +3,7 @@ Ansible Role: Skype
 
 [![Build Status](https://travis-ci.org/webarchitect609/ansible-role-skype.svg?branch=master)](https://travis-ci.org/webarchitect609/ansible-role-skype)
 
-Installs Skype from an official deb repository.
+Installs Skype from the official deb repository.
 
 Requirements
 ------------
@@ -13,7 +13,7 @@ None.
 Role Variables
 --------------
 
-None of variables is needed to be altered for installing latest stable Skype from https://repo.skype.com/deb . 
+None of the variables need to be altered for installing the latest stable version of the application. 
 However, all available variables are listed below, along with default values (see `defaults/main.yml`):
 
     skype_package: skypeforlinux

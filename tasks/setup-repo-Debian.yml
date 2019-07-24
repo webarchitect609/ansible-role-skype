@@ -6,8 +6,8 @@
 
 - name: "Add repository."
   template:
-    src: templates/skype-stable.list.j2
-    dest: /etc/apt/sources.list.d/skype-stable.list
+    src: templates/skype.list.j2
+    dest: /etc/apt/sources.list.d/skype.list
 
 - name: "Add repo key."
   apt_key:
