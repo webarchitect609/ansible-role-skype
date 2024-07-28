@@ -1,3 +1,14 @@
+⚠️ End of life notice
+=====================
+
+This role does not work anymore! The Official Skype apt repo is down since 2024. The only official way to get Skype for
+Linux is using [Snap](https://snapcraft.io/skype).
+
+```
+Err:16 https://repo.skype.com/deb stable InRelease
+  504  Gateway Time-out [IP: 23.202.116.136 443]
+```
+
 Ansible Role: Skype
 ===================
 
